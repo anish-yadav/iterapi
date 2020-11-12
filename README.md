@@ -40,7 +40,7 @@ let { error  = await student.init());
 ##### `constructor(regno:string,password:string): Student`
 Here is an example of creating a student object
 ```js
-const student = new Student"(12345","12345"); 
+const student = new Student("12345","12345"); 
 ```
 
 ##### `init():Prmoise<{student?:Student, error?: string}>`
@@ -48,17 +48,17 @@ const student = new Student"(12345","12345");
   Here is an example to initialize the student object.
   ```js
   let { error } = await student.init();
-// we dont require student return here.
-```
+  // we dont require student return here.
+  ```
 
 ##### `myInfo():Prmoise<{myinfo?:MYINFO, error?: string>}`
   It fetches the detail information of student
 
   Here is an example to fetch info.
-  ````js
+  ```js
   let { myinfo, error } = await student.myinfo();
-// we dont require student return here.
-```
+  // we dont require student return here.
+  ```
 
 ##### `getAttendance():Prmoise<{attendance?:ATTENDANCE, error?: string}>`
   It fetches the attendance of the student. 
@@ -75,17 +75,17 @@ const student = new Student"(12345","12345");
   Here is an example to fetch result.
   ```js
   let { result, error } = await student.getResult();
-// we dont require student return here.
-```
+  // we dont require student return here.
+  ```
 
 ##### `getDetailResultsem:number)(:Prmoise<{result?:DETAIL_RESULT[], error?: string>}`
   It fetches the detail result of the student for the semester `sem`. 
 
   Here is an example to fetch result.
   ```js
-  let { result, error  = await student.getDetailResult());
+  let { result, error }  = await student.getDetailResult());
 // we dont require student return here.
-```
+  ```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -93,4 +93,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT]https://choosealicense.com/licenses/mit/)()}``>)`)```>`)}">"">)")
+[MIT](https://choosealicense.com/licenses/mit/)
