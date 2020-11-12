@@ -56,7 +56,6 @@ export class Student {
           "Content-Type": "application/json",
         },
       });
-
       if (response.status === 200) {
         if (
           response.data.message.toLowerCase().includes("successful")
@@ -70,7 +69,7 @@ export class Student {
         }
       }
     } catch (e) {
-      throw e;
+      return {error: "Server error"};
     }
     return {error: "Unable to login"};
   }

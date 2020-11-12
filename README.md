@@ -1,7 +1,7 @@
 # IterApi
 
 ![npm](https://img.shields.io/npm/v/iterapi?color=green)
-![npm]https://img.shields.io/npm/dm/iterapi)(
+![npm](https://img.shields.io/npm/dm/iterapi)
 
 Fully featured iterapi with focus on type support, easy setup & great developer experience.
 
@@ -43,7 +43,7 @@ Here is an example of creating a student object
 const student = new Student"(12345","12345"); 
 ```
 
-##### init(`):Prmoise<{student?:Student, error?: string}>`
+##### `init():Prmoise<{student?:Student, error?: string}>`
   It initilizes your student object. make sure you create the student object before calling. It return a promise resolving in student or error.
   Here is an example to initialize the student object.
   ```js
@@ -51,7 +51,7 @@ const student = new Student"(12345","12345");
 // we dont require student return here.
 ```
 
-##### `myInfo():Prmoise<{myinfo?:MYINFO, error?: string>}
+##### `myInfo():Prmoise<{myinfo?:MYINFO, error?: string>}`
   It fetches the detail information of student
 
   Here is an example to fetch info.
@@ -60,7 +60,7 @@ const student = new Student"(12345","12345");
 // we dont require student return here.
 ```
 
-##### getAttendance(`):Prmoise<{attendance?:ATTENDANCE, error?: string}>`
+##### `getAttendance():Prmoise<{attendance?:ATTENDANCE, error?: string}>`
   It fetches the attendance of the student. 
 
   Here is an example to fetch attendance.
