@@ -1,4 +1,4 @@
-import { Student } from "../";
+import Student  from "../";
 
 const student = new Student("1841012416", "1245");
 test("login", async (done) => {

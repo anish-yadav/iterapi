@@ -1,6 +1,6 @@
 {
   "name": "iterapi",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Npm package for iterapi",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,12 +15,15 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
-    "version":"npm run format && git add -A src",
-    "postversion":"git push && git push --tags"
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "author": "Anish",
   "license": "ISC",
-  "keywords": ["ITER","ITERAPI"],
+  "keywords": [
+    "ITER",
+    "ITERAPI"
+  ],
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "jest": "^26.6.3",
