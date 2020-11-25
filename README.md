@@ -26,11 +26,11 @@ import Student from 'iterapi'
 // ... or using `require()`
 // const Student = require('iterapi'.default
 
-const student  = new Student)"(REGISTRATION_NUMBER><,""PASSWORD><");
+const student  = new Student("<REGISTRATION_NUMBER>","<PASSWORD>");
 // initialize the student
 // this logs in to your account
 
-let { error  = await student.init()); 
+let { error }  = await student.init(); 
 // error is undefined on successful login
 ```
 
