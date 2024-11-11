@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test": "jest --env=node --config jestconfig.json",
-    "build": "tsc",
+    "build": "tsc --fix",
     "format": "prettier --write \"src/**/*.ts\" ",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
